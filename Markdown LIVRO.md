@@ -1,4 +1,10 @@
-# Markdown LIVRO
+# Tudo sobre Markdown
+
+Obrigado a todos pelo incentivo!
+
+Agradecimentos especiais a amigos e familiares que me ajudaram nessa jornada. E obrigado Deus pela oportunidade.
+
+Sem vocês nada disso teria se concretizado!
 
 # Sobre
 
@@ -1570,11 +1576,11 @@ Você não precisa recuar nenhuma linha!
 ### Markdown
 
 ```markdown
-{
+```{
 	"primeiroNome": "Matheus",
 	"segundoNome": "Gomes",
 	"idade": 23
-}
+}```
 ```
 ### HTML
 
@@ -1877,5 +1883,67 @@ Se você não quiser que um URL seja vinculado automaticamente, você pode remov
 
 ---
 
-## Folha de dicas
+
+
+# Resumo
+
+Como última parte do livro, aqui vai um compilado com as informações mais relevantes para uma consulta rápida e prática sobre markdown!
+
+
+
+### Sintaxe Básica
+
+| Sintaxe            | Markdown                                           |
+| ------------------ | -------------------------------------------------- |
+| Cabeçalho/Título   | # H1                                               |
+|                    | ## H2                                              |
+|                    | ### H3                                             |
+| Negrito            | ** Texto em Negrito **                             |
+| Itálico            | * Texto em itálico *                               |
+| Citação            | > Texto a ser citado                               |
+| Lista Ordenada     | 1. Primeiro Item                                   |
+|                    | 2. Segundo Item                                    |
+|                    | 3. Terceiro Item                                   |
+| Lista Não Ordenada | - Item                                             |
+|                    | - Item de novo                                     |
+|                    | - Outro Item                                       |
+| Código             | `` Código `  `                                     |
+| Linha horizontal   | ---                                                |
+| Link               | `[título](https://link.com.br)`                    |
+| Imagem             | `![Texto alternativo](https://link-imagem.com.br)` |
+
+
+
+### Sintaxe Extendida
+
+| Sintaxe                   | Markdown                                                     |
+| ------------------------- | ------------------------------------------------------------ |
+| Tabela                    | `| Sintaxe   | Texto  |`                                     |
+|                           | `|    ---    |   ---  |`                                     |
+|                           | `| Cabeçalho | Título |`                                     |
+| Bloco de código protegido | ````{"primeiroNome": "Matheus",	"segundoNome": "Gomes",	"idade": 23}``` ` |
+| Nota de rodapé            | `Essa é a primeira nota de rodapé. [^1] `                    |
+| Id de título              | ### Meu título incrível {#custom-id}                         |
+| Palavra tachada           | `A Terra é ~~plana~~ esférica.`                              |
+| Lista de tarefas          | - [x] Escrever o livro                                       |
+|                           | - [ ] Publicar no github                                     |
+|                           | - [ ] Colocar na Amazon                                      |
+
+# Sobre o autor
+
+Matheus Gomes é desenvolvedor front-end com comprovadas habilidades técnicas, organizacionais e de comunicação, trabalhando com Vue Js e projetando soluções de software. Você pode entrar em contato com ele pelo email matheusgomes062@gmail.com.
+
+
+
+---
+
+# FIM
+
+Obrigado por estar até aqui comigo! Deus te abençoe e até a próxima! Espero que esse livro tenha lhe ajudado!
+
+
+
+Atenciosamente,
+
+Matheus Gomes
 
