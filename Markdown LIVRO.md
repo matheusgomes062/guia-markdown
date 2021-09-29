@@ -1,4 +1,4 @@
-# Tudo sobre Markdown
+# Guia Markdown
 
 Obrigado a todos pelo incentivo!
 
@@ -8,7 +8,7 @@ Sem vocês nada disso teria se concretizado!
 
 # Sobre
 
-Este livro irá abordar os fundamentos de edição de texto em *markdown editor* para que você possa tanto escrever ótimos READ.me's quanto ter uma melhor experiência editando textos!
+Este livro irá abordar os fundamentos de edição de texto em _markdown editor_ para que você possa tanto escrever ótimos READ.me's quanto ter uma melhor experiência editando textos!
 
 Irei passar por diversos tópicos, estes sendo:
 
@@ -28,7 +28,7 @@ Vamos lá?
 
 Olá! Seja bem vindo!
 
-Me chamo Matheus Gomes e ocasionalmente escrevo abordando temas dos mais diversos assuntos. Utilizei diversas ferramentas durante esse período, porém a ferramenta que mais gostei foi o *markup* *markdown editor.* Eventualmente irei explicar sobre o *markup* e *markdown editor*, porém o que posso dizer agora é que o que me atrai bastante neste markup é que seu uso parece natural, não é necessário muita prática para sair escrevendo. Basta aprender uma dúzia de sintaxes que já é possível fazer um texto muito mais estilizado e coeso.
+Me chamo Matheus Gomes e ocasionalmente escrevo abordando temas dos mais diversos assuntos. Utilizei diversas ferramentas durante esse período, porém a ferramenta que mais gostei foi o _markup_ _markdown editor._ Eventualmente irei explicar sobre o _markup_ e _markdown editor_, porém o que posso dizer agora é que o que me atrai bastante neste markup é que seu uso parece natural, não é necessário muita prática para sair escrevendo. Basta aprender uma dúzia de sintaxes que já é possível fazer um texto muito mais estilizado e coeso.
 
 Se você tem costume de versionar seus projetos no Github é muito possível que já tenha utilizado Markdown, ou até que esteja lendo este livro com a idéia de aprender sobre a "Linguagem do Github".
 
@@ -36,7 +36,7 @@ Eu acredito que hoje não há um livro brasileiro sobre escrita com Markdown, ap
 
 Ademais, acredito que saber escrever com Markdown te proporciona uma perspectiva diferente sobre o documento, além de fornecer mais liberdade para o usuário poder estilizar o texto como bem entender de forma rápida e prática.
 
-Acredito, assim como [Matt Cone](https://www.mattcone.com/) cita em seu livro "[The Markdown Guide](https://www.markdownguide.org/)", que o Markdown teve sucesso por ser o ponto de equilíbrio entre simplicidade e poder. Criado em 2004, milhões de pessoas tem utilizado ele para escrever desde notas até mesmo documentos. 
+Acredito, assim como [Matt Cone](https://www.mattcone.com/) cita em seu livro "[The Markdown Guide](https://www.markdownguide.org/)", que o Markdown teve sucesso por ser o ponto de equilíbrio entre simplicidade e poder. Criado em 2004, milhões de pessoas tem utilizado ele para escrever desde notas até mesmo documentos.
 
 Outro ponto importante a ser mencionado é que este é minha primeira aventura em um livro, não só isso, mas um livro inteiramente escrito em Markdown utilizando diversos softwares de escrita que serão abordados mais a frente. Importante dizer que o livro que me motivou a escrever este foi o "The Markdown Guide" e a página de [John Gruber](https://daringfireball.net/projects/markdown/syntax) sobre o assunto. Teremos também um repositório no [github](https://github.com/matheusgomes062/guia-markdown) onde o livro estará disponível para fecharmos o ciclo de "um livro sobre markdown escrito em markdown e versionado no github".
 
@@ -48,15 +48,15 @@ Sem mais delongas, vamos lá, primeiramente...
 
 Criado em 2004 por [John Gruber](https://daringfireball.net/projects/markdown/), Markdown é um linguagem de marcação de texto que adiciona elementos de [formatação em texto simples](https://www.markdownguide.org/getting-started/), sendo uma das linguagens de marcação mais utilizadas no mundo.
 
-Não devemos confundir Markdown com [WYSIWYG](https://en.wikipedia.org/wiki/WYSIWYG) ou mesmo com algo como *Google Docs* ou *Word*. Isso porque programas como Word ou Google Docs, você clica em botões para mudar frases ou textos. Estas mudanças aparecem imediatamente e são diretamente relacionadas a estes botões. Diferente, o Markdown se baseia em um arquivo de texto formatado para indicar quais palavras e frases devem ser "estilizadas" de outra forma.
+Não devemos confundir Markdown com [WYSIWYG](https://en.wikipedia.org/wiki/WYSIWYG) ou mesmo com algo como _Google Docs_ ou _Word_. Isso porque programas como Word ou Google Docs, você clica em botões para mudar frases ou textos. Estas mudanças aparecem imediatamente e são diretamente relacionadas a estes botões. Diferente, o Markdown se baseia em um arquivo de texto formatado para indicar quais palavras e frases devem ser "estilizadas" de outra forma.
 
-Por exemplo, em um documento, padrão Google Docs ou Word que utilizam WYSIWYG, caso  tenhamos o interesse de escrever um texto em negrito (*'bold' nos programas*), teria que clicar na opção de negrito (ou utilizar o comando `Ctrl+b`), em comparação, no Markdown, seria obtido o mesmo resultado adicionando asteriscos antes e após a palavra que se deseja por em negrito, ou seja:  `**esse texto está em negrito**` .
+Por exemplo, em um documento, padrão Google Docs ou Word que utilizam WYSIWYG, caso tenhamos o interesse de escrever um texto em negrito (_'bold' nos programas_), teria que clicar na opção de negrito (ou utilizar o comando `Ctrl+b`), em comparação, no Markdown, seria obtido o mesmo resultado adicionando asteriscos antes e após a palavra que se deseja por em negrito, ou seja: `**esse texto está em negrito**` .
 
 ### Visualização
 
 **esse texto está em negrito**
 
-Assim, o  Markdown funciona utilizando de caracteres especiais que são postos antes e/ou depois de determinados blocos de texto para criar a estilização necessária!
+Assim, o Markdown funciona utilizando de caracteres especiais que são postos antes e/ou depois de determinados blocos de texto para criar a estilização necessária!
 
 ![images/Image6.png](images/Image6.png)
 
@@ -80,7 +80,7 @@ O [Typora](https://typora.io/) por exemplo une os passos 1, 2 e 3, assim podemos
 Apesar da diferença, você irá perceber logo mais a facilidade e rapidez que a marcação Markdown proporciona, basta continuar e acompanhar os exemplos!
 
 > “Um dia encontrarei as palavras certas, e elas serão simples.”
--Jack Kerouac
+> -Jack Kerouac
 
 ---
 
@@ -90,13 +90,13 @@ Como vimos anteriormente, temos algumas soluções para a marcação de textos c
 
 Vamos listar os pontos do porque devemos aprender Markdown:
 
-- **Markdown pode (e é) utilizado para tudo**. Pessoas utilizam Markdown para criar [sites](https://mkdocs.github.io/mkdocs-basic-theme/),  documentação, anotações, livros (como este), [apresentações](https://marp.app/), mensagens de email, documentação técnica e muito mais. O limite está na criatividade!
+- **Markdown pode (e é) utilizado para tudo**. Pessoas utilizam Markdown para criar [sites](https://mkdocs.github.io/mkdocs-basic-theme/), documentação, anotações, livros (como este), [apresentações](https://marp.app/), mensagens de email, documentação técnica e muito mais. O limite está na criatividade!
 - **Markdown é portátil**. Arquivos escritos em Markdown podem ser abertos utilizando quase que qualquer aplicação. Se você não gostar do app que está utilizando para escrever em Markdown, você pode simplesmente importar o arquivo de texto atual para outro aplicativo que atenda melhor as suas necessidades. Eu por exemplo gosto muito de utilizar o [Typora](https://typora.io/), no entanto, eu atualmente tenho escrito no [Notion](https://www.notion.so/) pela praticidade e estilo. A questão é, independente da plataforma o Markdown é universal, ao contrário do documento Word ou Google docs que seguem padrões próprios e necessitam de aplicativos específicos.
 - **Markdown é independente.** Qualquer dispositivo ou sistema operacional consegue 'rodar' marcação do tipo Markdown.
-- **Markdown é consolidado.** Mesmo que sua aplicação de edição parar de funcionar no futuro, pelo Markdown ser consolidado ainda será possível ler o arquivo. Isto é de extrema importância para quando tratamos de livros, artigos acadêmicos ou   mesmo documentos importantes que precisam ser preservados.
+- **Markdown é consolidado.** Mesmo que sua aplicação de edição parar de funcionar no futuro, pelo Markdown ser consolidado ainda será possível ler o arquivo. Isto é de extrema importância para quando tratamos de livros, artigos acadêmicos ou mesmo documentos importantes que precisam ser preservados.
 - **Markdown está em todo lugar**. Como dito no primeiro tópico, além de utilizado para tudo, ele está em tudo. Funcionando tanto no [Reddit](https://www.reddit.com/) quanto no [Github](https://github.com/), encontramos o Markdown nas mais diversas plataformas web, sendo possivelmente a linguagem de marcação mais utilizada no mundo (depois do HTML, claro).
 
-Mas vamos lá! 
+Mas vamos lá!
 
 Primeiramente iremos...
 
@@ -104,7 +104,7 @@ Primeiramente iremos...
 
 # Configurar o ambiente de edição
 
-Para acompanhar o livro é importante que você utilize um editor de texto que suporte Markdown. Temos diversas opções disponíveis, tanto gratuitas quanto pagas. 
+Para acompanhar o livro é importante que você utilize um editor de texto que suporte Markdown. Temos diversas opções disponíveis, tanto gratuitas quanto pagas.
 
 Aqui irei dispor algumas dessas opções:
 
@@ -116,12 +116,12 @@ Aqui irei dispor algumas dessas opções:
 - [StackEdit](https://stackedit.io/)
 - [editor.md](https://pandao.github.io/editor.md/en.html)
 
-Neste livro utilizaremos o Typora por ser *open source* (no momento que escrevo o Typora é **open source**, mas eventualmente ele irá se tornar pago), ou seja, **é gratuito**. Ele também é uma aplicação para Windows, Mac (Beta) e Linux, ou seja, **podemos utilizar em qualquer lugar**. Por fim, escolho o Typora pela **ampla base de usuários**, **simplicidade**, e **leveza** e por ser **possível adicionar temas**!
+Neste livro utilizaremos o Typora por ser _open source_ (no momento que escrevo o Typora é **open source**, mas eventualmente ele irá se tornar pago), ou seja, **é gratuito**. Ele também é uma aplicação para Windows, Mac (Beta) e Linux, ou seja, **podemos utilizar em qualquer lugar**. Por fim, escolho o Typora pela **ampla base de usuários**, **simplicidade**, e **leveza** e por ser **possível adicionar temas**!
 
 Portanto, basta baixar e instalar o Typora, ou editor de preferência para podermos iniciar o curso!
 
 > “Escrever é uma forma socialmente aceitável de esquizofrenia.”
-― E.L. Doctorow
+> ― E.L. Doctorow
 
 ---
 
@@ -142,9 +142,10 @@ A apresentação da linguagem será dada da seguinte forma:
 ### HTML
 
 ```html
-1. <p>Estou começando a gostar de escrever com Markdown</p>
-2.
-3. <p>Acho que irei usar isso daqui pra frente.</p>
+1.
+<p>Estou começando a gostar de escrever com Markdown</p>
+2. 3.
+<p>Acho que irei usar isso daqui pra frente.</p>
 ```
 
 ### Visualização
@@ -161,7 +162,7 @@ Vamos lá.
 
 ## Títulos
 
-Para títulos utilizamos a cerquilha (ou infamemente conhecida como jogo da velha) `#` . O título é medido pelo número de vezes que a cerquilha é posta em conjunto, ou seja,  utilizaremos duas cerquilhas para caso queiramos representar um título em `h2`, ou em termos leigos, um título um tanto menor que o título de maior tamanho.
+Para títulos utilizamos a cerquilha (ou infamemente conhecida como jogo da velha) `#` . O título é medido pelo número de vezes que a cerquilha é posta em conjunto, ou seja, utilizaremos duas cerquilhas para caso queiramos representar um título em `h2`, ou em termos leigos, um título um tanto menor que o título de maior tamanho.
 
 Aqui está algo mais claro e prático:
 
@@ -174,11 +175,9 @@ Aqui está algo mais claro e prático:
 | ##### Título nível 5  | <h5>Título nível 5</h5> |
 | ###### Título nível 6 | <h6>Título nível 6</h6> |
 
-
-
 ### Sintaxe alternativa para Títulos
 
-Existe uma sintaxe alternativa para títulos que é pouco usada. Tal sintaxe serve apenas para títulos de nível 1 e 2 (h1 e h2). Ela funciona da seguinte forma, colocamos o sinal de menos/subtração  (`-`) na linha abaixo do título para mostrar o título como título de nível 1. E utilizamos o  sinal  de igual (`=`) na linha abaixo do título para mostrar o título como título de nível 2.
+Existe uma sintaxe alternativa para títulos que é pouco usada. Tal sintaxe serve apenas para títulos de nível 1 e 2 (h1 e h2). Ela funciona da seguinte forma, colocamos o sinal de menos/subtração (`-`) na linha abaixo do título para mostrar o título como título de nível 1. E utilizamos o sinal de igual (`=`) na linha abaixo do título para mostrar o título como título de nível 2.
 
 Exemplificando:
 
@@ -186,8 +185,6 @@ Exemplificando:
 | ------------------------ | ----------------------- |
 | Título nível 1 ========= | <h1>Título nível 1</h1> |
 | Título nível 1 ——————    | <h2>Título nível 2</h2> |
-
-
 
 ### Melhores práticas para Títulos
 
@@ -203,7 +200,7 @@ Exemplo:
 
 ## Parágrafos
 
-Para criar parágrafos, utilizamos uma linha em branco para separar as linhas de texto.  Não devemos indentar os parágrafos com espaços ou *tabs,* pois isso irá representar outra função diferente do parágrafo.
+Para criar parágrafos, utilizamos uma linha em branco para separar as linhas de texto. Não devemos indentar os parágrafos com espaços ou _tabs,_ pois isso irá representar outra função diferente do parágrafo.
 
 Exemplo:
 
@@ -218,9 +215,10 @@ Exemplo:
 ### HTML
 
 ```html
-1. <p>Estou começando a gostar de escrever com Markdown</p>
-2.
-3. <p>Acho que irei usar isso daqui pra frente.</p>
+1.
+<p>Estou começando a gostar de escrever com Markdown</p>
+2. 3.
+<p>Acho que irei usar isso daqui pra frente.</p>
 ```
 
 ### Visualização
@@ -228,8 +226,6 @@ Exemplo:
 Estou começando a gostar de escrever com Markdown
 
 Acho que irei usar isso daqui pra frente.
-
-
 
 ### Melhores práticas para Parágrafos
 
@@ -241,36 +237,37 @@ A não ser que o parágrafo esteja numa lista, não indente os parágrafos com e
 
     `Isso pode ocasionar problemas de formatação` ❌
 
- `E adicionar espaços no começo pode atrapalhar a leitura.` ❌
+`E adicionar espaços no começo pode atrapalhar a leitura.` ❌
 
 ---
 
 ## Quebra de linha
 
-A quebra de linha é bem simples, basta adicionar dois ou mais espaços no final de uma linha e então apertar enter (*return* no *mac*).
+A quebra de linha é bem simples, basta adicionar dois ou mais espaços no final de uma linha e então apertar enter (_return_ no _mac_).
 
 Exemplo:
 
 ### Markdown
 
 ```bash
-1. Esta é a primeira linha.  
+1. Esta é a primeira linha.
 2. E esta é a segunda linha.
 ```
 
 ### HTML
 
 ```html
-1. <p>Estou começando a gostar de escrever com Markdown<br />
-2. E esta é a segunda linha.</p>
+1.
+<p>
+  Estou começando a gostar de escrever com Markdown<br />
+  2. E esta é a segunda linha.
+</p>
 ```
 
 ### Visualização
 
 Esta é a primeira linha.
 E esta é a segunda linha.
-
-
 
 ### Melhores prática para quebra de linha
 
@@ -308,7 +305,7 @@ Exemplo:
 
 ## Destaque/Ênfase
 
-No caso, destaques para **negrito** e *itálico.*
+No caso, destaques para **negrito** e _itálico._
 
 ### Negrito
 
@@ -342,11 +339,9 @@ Apesar de não haver concordância entre a melhor prática para o uso de negrito
 
 `Para__lele__pípedo.` ❌
 
-
-
 ### Itálico
 
-Para itálico utilizamos o mesmo conceito, porém ao invés de adicionar dois asteriscos utilizamos um sublinhado/underline **(`_`)*.*
+Para itálico utilizamos o mesmo conceito, porém ao invés de adicionar dois asteriscos utilizamos um sublinhado/underline \*_(`_`)_.\*
 
 Da seguinte forma:
 
@@ -364,7 +359,7 @@ Da seguinte forma:
 
 ### Visualização
 
-1. Michael Jackson dançando fica estilo *itálico*.
+1. Michael Jackson dançando fica estilo _itálico_.
 
 ![images/Image2.png](images/Image2.png)
 
@@ -381,8 +376,6 @@ Apesar de não haver concordância entre a melhor prática para o uso de itálic
 ## Destaque com sintaxe alternativa
 
 Existe uma outra forma, talvez menos usual de produzir os mesmos destaques. Vejamos como...
-
-
 
 ### Negrito (Alternativo)
 
@@ -404,8 +397,6 @@ Da mesma forma que utilizamos dois asteriscos para transformar o texto em negrit
 
 Vou dar ênfase **nisso.**
 
-
-
 ### Itálico (Alternativo)
 
 Seguindo a mesma proposta, podemos obter o mesmo resultado de itálico utilizando apenas um asterisco de cada lado.
@@ -424,7 +415,7 @@ Seguindo a mesma proposta, podemos obter o mesmo resultado de itálico utilizand
 
 ### Visualização
 
-1. Michael Jackson dançando fica estilo *itálico*.
+1. Michael Jackson dançando fica estilo _itálico_.
 
 ---
 
@@ -447,14 +438,14 @@ Palavra ***importante*** no texto.
 ### HTML
 
 ```html
-<strong><em>Texto</em></strong> importante.
-Palavra <strong><em>importante</em></strong> no texto.
+<strong><em>Texto</em></strong> importante. Palavra
+<strong><em>importante</em></strong> no texto.
 ```
 
 ### Visualização
 
-***Texto*** importante.
-Palavra ***importante*** no texto.
+**_Texto_** importante.
+Palavra **_importante_** no texto.
 
 ### Melhores práticas Negrito e Itálico
 
@@ -480,7 +471,7 @@ Para criar citações basta adicionar o símbolo de "maior que" (`>`) na frente 
 
 ```html
 <blockquote>
-	<p>“Quem ousou conquistar e saiu pra lutar, chega mais longe!”</p>
+  <p>“Quem ousou conquistar e saiu pra lutar, chega mais longe!”</p>
 </blockquote>
 ```
 
@@ -506,14 +497,15 @@ Podemos também adicionar parágrafos nas citações. Para isso adicionamos um "
 
 ```html
 <blockquote>
-	<p>“Quem ousou conquistar e saiu pra lutar, chega mais longe!”</p>
-	<p>- Charlie Brown Jr </p>
+  <p>“Quem ousou conquistar e saiu pra lutar, chega mais longe!”</p>
+  <p>- Charlie Brown Jr</p>
 </blockquote>
 ```
 
 ### Visualização
 
 > “Quem ousou conquistar e saiu pra lutar, chega mais longe!”
+
 - Charlie Brown Jr
 
 ---
@@ -534,10 +526,10 @@ As citações podem ser aninhadas, para isso adicione duas vezes o símbolo de c
 
 ```html
 <blockquote>
-	<p>Parágrafo padrão</p>
-	<blockquote>
-		<p>Parágrafo aninhado</p>
-	</blockquote>
+  <p>Parágrafo padrão</p>
+  <blockquote>
+    <p>Parágrafo aninhado</p>
+  </blockquote>
 </blockquote>
 ```
 
@@ -568,12 +560,12 @@ A versatilidade no markdown é bem grande, aqui demonstramos como utilizar outra
 
 ```html
 <blockquote>
-	<h5>Undertale é um jogo fantástico!</h5>
-	<ul>
-		<li>A história é incrível.</li>
-		<li>Super divertido.</li>
-	</ul>
-	<p><em>Vale muito</em> a pena <strong>jogar</strong>.</p>
+  <h5>Undertale é um jogo fantástico!</h5>
+  <ul>
+    <li>A história é incrível.</li>
+    <li>Super divertido.</li>
+  </ul>
+  <p><em>Vale muito</em> a pena <strong>jogar</strong>.</p>
 </blockquote>
 ```
 
@@ -585,7 +577,7 @@ A versatilidade no markdown é bem grande, aqui demonstramos como utilizar outra
 >
 > - Super divertido.
 >
->  *Vale muito* a pena **jogar**!.
+>   _Vale muito_ a pena **jogar**!.
 
 ---
 
@@ -603,17 +595,17 @@ Utilizamos listas ordenadas para muitos casos na programação, principalmente p
 1. Primeiro item
 2. Segundo item
 3. Terceiro item
-5. Quinto item
+4. Quinto item
 ```
 
 ### HTML
 
 ```html
 <ol>
-	<li>Primeiro item </li>
-	<li>Segundo item </li>
-	<li>Terceiro item </li>
-	<li>Quinto item </li>
+  <li>Primeiro item</li>
+  <li>Segundo item</li>
+  <li>Terceiro item</li>
+  <li>Quinto item</li>
 </ol>
 ```
 
@@ -623,21 +615,21 @@ Utilizamos listas ordenadas para muitos casos na programação, principalmente p
 2. Segundo item
 3. Terceiro item
 
-  5. Quinto item
+4. Quinto item
 
 ---
 
 ## Listas aninhadas
 
-Para alinhar uma lista dentro de uma lista ordenada, indentamos os itens 4 espaços para direita ou um *tab.*
+Para alinhar uma lista dentro de uma lista ordenada, indentamos os itens 4 espaços para direita ou um _tab._
 
 ### Markdown
 
 ```markdown
 1. Primeiro item
 2. Segundo item
-	1. Item 1 dentro do segundo
-	2. Item 2 dentro do segundo
+   1. Item 1 dentro do segundo
+   2. Item 2 dentro do segundo
 3. Terceiro item
 ```
 
@@ -645,13 +637,13 @@ Para alinhar uma lista dentro de uma lista ordenada, indentamos os itens 4 espa�
 
 ```html
 <ol>
-	<li>Primeiro item </li>
-	<li>Segundo item </li>
-	<ol>
-		<li>Item 1 dentro do segundo </li>
-		<li>Item 2 dentro do segundo </li>
-	</ol>
-	<li>Terceiro item </li>
+  <li>Primeiro item</li>
+  <li>Segundo item</li>
+  <ol>
+    <li>Item 1 dentro do segundo</li>
+    <li>Item 2 dentro do segundo</li>
+  </ol>
+  <li>Terceiro item</li>
 </ol>
 ```
 
@@ -659,8 +651,8 @@ Para alinhar uma lista dentro de uma lista ordenada, indentamos os itens 4 espa�
 
 1. Primeiro item
 2. Segundo item
-    1. Item 1 dentro do segundo
-    2. Item 2 dentro do segundo
+   1. Item 1 dentro do segundo
+   2. Item 2 dentro do segundo
 3. Terceiro item
 
 ---
@@ -681,7 +673,9 @@ Listas não ordenadas também são muito utilizadas para listar tópicos de task
 * Terceiro item
 
 * Primeiro item
+
 - Segundo item
+
 * Terceiro item
 ```
 
@@ -689,9 +683,9 @@ Listas não ordenadas também são muito utilizadas para listar tópicos de task
 
 ```html
 <ul>
-	<li>Primeiro item </li>
-	<li>Segundo item </li>
-	<li>Terceiro item </li>
+  <li>Primeiro item</li>
+  <li>Segundo item</li>
+  <li>Terceiro item</li>
 </ul>
 ```
 
@@ -705,27 +699,29 @@ Listas não ordenadas também são muito utilizadas para listar tópicos de task
 
 ## Aninhando items de uma lista não ordenada
 
-As vezes queremos aninhar os itens para casos mais complexos na documentação. Portanto, para aninhar itens dentro de uma lista não ordenada, indentamos os seus itens quatro espaços para direita ou um *tab.*
+As vezes queremos aninhar os itens para casos mais complexos na documentação. Portanto, para aninhar itens dentro de uma lista não ordenada, indentamos os seus itens quatro espaços para direita ou um _tab._
 
 ### Markdown
 
 ```markdown
 - Primeiro item
 - Segundo item
-	- Item aninhado
-	- Item aninhado
+  - Item aninhado
+  - Item aninhado
 - Terceiro item
 
 * Primeiro item
 * Segundo item
-	* Item aninhado
-	* Item aninhado
+  - Item aninhado
+  - Item aninhado
 * Terceiro item
 
 * Primeiro item
+
 - Segundo item
-	* Item aninhado
-	- Item aninhado
+  - Item aninhado
+  * Item aninhado
+
 * Terceiro item
 ```
 
@@ -733,13 +729,13 @@ As vezes queremos aninhar os itens para casos mais complexos na documentação. 
 
 ```html
 <ul>
-	<li>Primeiro item </li>
-	<li>Segundo item </li>
-	<ol>
-		<li>Item aninhado </li>
-		<li>Item aninhado </li>
-	</ol>
-	<li>Terceiro item </li>
+  <li>Primeiro item</li>
+  <li>Segundo item</li>
+  <ol>
+    <li>Item aninhado</li>
+    <li>Item aninhado</li>
+  </ol>
+  <li>Terceiro item</li>
 </ul>
 ```
 
@@ -747,19 +743,17 @@ As vezes queremos aninhar os itens para casos mais complexos na documentação. 
 
 - Primeiro item
 - Segundo item
-    - Item aninhado
-    - Item aninhado
+  - Item aninhado
+  - Item aninhado
 - Terceiro item
 
 ---
 
 ## Adicionando elementos na lista
 
-Para adicionar outro elemento markdown na lista enquanto preserva a lista em si, indentamos o elemento quatro espaços para direita ou um *tab.* 
+Para adicionar outro elemento markdown na lista enquanto preserva a lista em si, indentamos o elemento quatro espaços para direita ou um _tab._
 
 Veja dois exemplos com diferentes tipos de elementos markdown:
-
-
 
 ### Adicionando parágrafos
 
@@ -769,21 +763,22 @@ Veja dois exemplos com diferentes tipos de elementos markdown:
 - Primeiro item
 - Segundo item
 
-	Parágrafo que adicionei no meio da lista
+  Parágrafo que adicionei no meio da lista
 
 - Terceiro item
 
 * Primeiro item
 * Segundo item
 
-	Parágrafo que adicionei no meio da lista
+  Parágrafo que adicionei no meio da lista
 
 * Terceiro item
 
 * Primeiro item
+
 - Segundo item
 
-	Parágrafo que adicionei no meio da lista
+  Parágrafo que adicionei no meio da lista
 
 * Terceiro item
 ```
@@ -792,11 +787,12 @@ Veja dois exemplos com diferentes tipos de elementos markdown:
 
 ```html
 <ul>
-	<li><p>Primeiro item </p></li>
-	<li><p>Segundo item </p>
-		<p>Parágrafo que adicionei no meio da lista </p>
-	</li>
-	<li><p>Terceiro item </p></li>
+  <li><p>Primeiro item</p></li>
+  <li>
+    <p>Segundo item</p>
+    <p>Parágrafo que adicionei no meio da lista</p>
+  </li>
+  <li><p>Terceiro item</p></li>
 </ul>
 ```
 
@@ -805,11 +801,9 @@ Veja dois exemplos com diferentes tipos de elementos markdown:
 - Primeiro item
 - Segundo item
 
-    Parágrafo que adicionei no meio da lista
+  Parágrafo que adicionei no meio da lista
 
 - Terceiro item
-
-
 
 ### Adicionando bloco de citações
 
@@ -818,17 +812,19 @@ Veja dois exemplos com diferentes tipos de elementos markdown:
 ```markdown
 - Primeiro item
 - Segundo item
-	> Bloco de citação que adicionei no meio da lista
+  > Bloco de citação que adicionei no meio da lista
 - Terceiro item
 
 * Primeiro item
 * Segundo item
-	> Bloco de citação que adicionei no meio da lista
+  > Bloco de citação que adicionei no meio da lista
 * Terceiro item
 
 * Primeiro item
+
 - Segundo item
-	> Bloco de citação que adicionei no meio da lista
+  > Bloco de citação que adicionei no meio da lista
+
 * Terceiro item
 ```
 
@@ -836,13 +832,14 @@ Veja dois exemplos com diferentes tipos de elementos markdown:
 
 ```html
 <ul>
-	<li><p>Primeiro item </p></li>
-	<li><p>Segundo item </p>
-		<blockquote>
-			<p>Bloco de citação que adicionei no meio da lista </p>
-		</blockquote>
-	</li>
-	<li><p>Terceiro item </p></li>
+  <li><p>Primeiro item</p></li>
+  <li>
+    <p>Segundo item</p>
+    <blockquote>
+      <p>Bloco de citação que adicionei no meio da lista</p>
+    </blockquote>
+  </li>
+  <li><p>Terceiro item</p></li>
 </ul>
 ```
 
@@ -851,41 +848,42 @@ Veja dois exemplos com diferentes tipos de elementos markdown:
 - Primeiro item
 
 - Segundo item
-	
-	> Bloco de citação que adicionei no meio da lista
+
+  > Bloco de citação que adicionei no meio da lista
+
 - Terceiro item
-
-
 
 ### Adicionando Bloco de código
 
-Blocos de código são geralmente utilizados na documentação técnica, geralmente para explicar algo preciso para os desenvolvedores. Geralmente são indentados quatro espaços para direita ou um *tab.* Quando estão em uma lista no entanto, eles são indentados 8 espaços para direita ou 2 *tabs.*
+Blocos de código são geralmente utilizados na documentação técnica, geralmente para explicar algo preciso para os desenvolvedores. Geralmente são indentados quatro espaços para direita ou um _tab._ Quando estão em uma lista no entanto, eles são indentados 8 espaços para direita ou 2 _tabs._
 
 ### Markdown
 
 ```markdown
 - Primeiro passo
 - Segundo passo
-		<html>
-			<head>
-				<title>Teste</title>
-			</head>
+  <html>
+  <head>
+  <title>Teste</title>
+  </head>
 - Terceiro passo
 
 * Primeiro passo
 * Segundo passo
-		<html>
-				<head>
-					<title>Teste</title>
-				</head>
+  <html>
+  <head>
+  <title>Teste</title>
+  </head>
 * Terceiro passo
 
 * Primeiro passo
+
 - Segundo passo
-		<html>
-			<head>
-				<title>Teste</title>
-			</head>
+  <html>
+  <head>
+  <title>Teste</title>
+  </head>
+
 * Terceiro passo
 ```
 
@@ -893,15 +891,16 @@ Blocos de código são geralmente utilizados na documentação técnica, geralme
 
 ```html
 <o>
-	<li><p>Primeiro passo</p></li>
-	<li><p>Segundo passo</p>
-		<pre><code>&lt;html&gt;
+  <li><p>Primeiro passo</p></li>
+  <li>
+    <p>Segundo passo</p>
+    <pre><code>&lt;html&gt;
 			&lt;head&gt;
 				&lt;title&gt;Test&lt;/title&gt;
 			&lt;/head&gt;
 		</code></pre>
-	</li>
-	<li><p>Terceiro item</p></li>
+  </li>
+  <li><p>Terceiro item</p></li>
 </o>
 ```
 
@@ -910,16 +909,15 @@ Blocos de código são geralmente utilizados na documentação técnica, geralme
 - Primeiro passo
 - Segundo passo
 
-    ```html
-    <html>
-    	<head>
-    		<title>Test</title>
-    	</head>
-    ```
+  ```html
+  <html>
+    <head>
+      <title>Test</title>
+    </head>
+  </html>
+  ```
 
 - Terceiro passo
-
-
 
 ### Adicionar imagens em listas
 
@@ -930,17 +928,19 @@ Importante para uma documentação clara, é possível adicionar imagens no meio
 ```markdown
 - Primeiro passo
 - Segundo passo
-		![Exemplo do segundo passo](images/Image3.png)
+  ![Exemplo do segundo passo](images/Image3.png)
 - Terceiro passo
 
 * Primeiro passo
 * Segundo passo
-		![Exemplo do segundo passo](images/Image3.png)
+  ![Exemplo do segundo passo](images/Image3.png)
 * Terceiro passo
 
 * Primeiro passo
+
 - Segundo passo
-		![Exemplo do segundo passo](images/Image3.png)
+  ![Exemplo do segundo passo](images/Image3.png)
+
 * Terceiro passo
 ```
 
@@ -948,13 +948,14 @@ Importante para uma documentação clara, é possível adicionar imagens no meio
 
 ```html
 <o>
-	<li><p>Primeiro passo</p></li>
-	<li><p>Segundo passo</p>
-		<p>
-			<img src="images/Image3.png" alt=rickroll />
-		</p>
-	</li>
-	<li><p>Terceiro item</p></li>
+  <li><p>Primeiro passo</p></li>
+  <li>
+    <p>Segundo passo</p>
+    <p>
+      <img src="images/Image3.png" alt="rickroll" />
+    </p>
+  </li>
+  <li><p>Terceiro item</p></li>
 </o>
 ```
 
@@ -989,8 +990,6 @@ Para iniciar o projeto utilize o comando <code>yarn start</code>
 
 Para iniciar o projeto utilize o comando `yarn start`
 
-
-
 ### Como utilizar acentos dentro de códigos markdown
 
 Se a palavra ou frase que você quer escrever tem códigos com um ou mais crases, você pode ignorar elas encapsulando-as em crases duplas (````).
@@ -998,7 +997,7 @@ Se a palavra ou frase que você quer escrever tem códigos com um ou mais crases
 ### Markdown
 
 ```markdown
-``É possível utilizar `código` dentro do seu arquivo Markdown``
+`` É possível utilizar `código` dentro do seu arquivo Markdown ``
 ```
 
 ### HTML
@@ -1013,19 +1012,17 @@ Se a palavra ou frase que você quer escrever tem códigos com um ou mais crases
 É possível utilizar `código` dentro do seu arquivo Markdown
 ```
 
-
-
 ### Bloco de códigos
 
-Para criar bloco de códigos, indente cada linha do bloco para pelo menos quatro espaços para frente ou um *tab.*
+Para criar bloco de códigos, indente cada linha do bloco para pelo menos quatro espaços para frente ou um _tab._
 
 ### Markdown
 
 ```markdown
-	<html>
-		<head>
-		</head>
-	</html>
+    <html>
+    	<head>
+    	</head>
+    </html>
 ```
 
 ### HTML
@@ -1045,8 +1042,7 @@ Para criar bloco de códigos, indente cada linha do bloco para pelo menos quatro
 
 ```html
 <html>
-	<head>
-	</head>
+  <head> </head>
 </html>
 ```
 
@@ -1059,11 +1055,11 @@ Utilizadas para separar contextos ou criar uma leitura mais estilizada as linhas
 ### Markdown
 
 ```markdown
-***
+---
 
 ---
 
-___________________
+---
 ```
 
 ### HTML
@@ -1090,7 +1086,7 @@ Para compatibilidade, coloque linhas vazias antes e depois das linhas horizontai
 Jeito correto ✅
 Linha vazia abaixo
 
-***
+---
 
 Linha vazia acima
 ```
@@ -1099,7 +1095,9 @@ Linha vazia acima
 
 ```markdown
 Jeito impróprio ❌
-***
+
+---
+
 Não faça isso!
 ```
 
@@ -1107,47 +1105,51 @@ Não faça isso!
 
 ## Links
 
-Importante para direcionar o leitor para referências ou até mesmo outros documentos, links são  um pouco mais complexos de utilizar. Primeiro, utilize o texto do link em colchetes (exemplo: [Uncle Bob]) e então coloque logo em seguida a URL entre parênteses (exemplo: ([http://cleancoder.com](http://cleancoder.com/products))).
+Importante para direcionar o leitor para referências ou até mesmo outros documentos, links são um pouco mais complexos de utilizar. Primeiro, utilize o texto do link em colchetes (exemplo: [Uncle Bob]) e então coloque logo em seguida a URL entre parênteses (exemplo: ([http://cleancoder.com](http://cleancoder.com/products))).
 
 ### Markdown
 
 ```markdown
-Acesse o [site]([http://cleancoder.com](http://cleancoder.com/products)) do Uncle Bob!
+Acesse o [site](<[http://cleancoder.com](http://cleancoder.com/products)>) do Uncle Bob!
 ```
 
 ### HTML
 
 ```html
-Acesse o <a href="[http://cleancoder.com](http://cleancoder.com/products)">site</a> do Uncle Bob!
+Acesse o
+<a href="[http://cleancoder.com](http://cleancoder.com/products)">site</a> do
+Uncle Bob!
 ```
 
 ### Visualização
 
 Acesse o [site](http://cleancoder.com) do Uncle Bob!
-
-
 
 ### Adicionando Títulos para links
 
-É possível adicionar títulos para links. Eles apareceram como uma *tooltip* quando o usuário passar o mouse em cima do link. Para adicionar um título é bem simples, basta colocar o título entre parênteses depois da URL.
+É possível adicionar títulos para links. Eles apareceram como uma _tooltip_ quando o usuário passar o mouse em cima do link. Para adicionar um título é bem simples, basta colocar o título entre parênteses depois da URL.
 
 ### Markdown
 
 ```markdown
-Acesse o [site]([http://cleancoder.com](http://cleancoder.com/products) "código limpo!") do Uncle Bob!
+Acesse o [site](<[http://cleancoder.com](http://cleancoder.com/products)> 'código limpo!') do Uncle Bob!
 ```
 
 ### HTML
 
 ```html
-Acesse o <a href="[http://cleancoder.com](http://cleancoder.com/products)" title="código limpo!">site</a> do Uncle Bob!
+Acesse o
+<a
+  href="[http://cleancoder.com](http://cleancoder.com/products)"
+  title="código limpo!"
+  >site</a
+>
+do Uncle Bob!
 ```
 
 ### Visualização
 
 Acesse o [site](http://cleancoder.com) do Uncle Bob!
-
-
 
 ### Transformar URL ou email em links clicáveis
 
@@ -1163,16 +1165,14 @@ e você também me encontra no <https://github.com/>
 ### HTML
 
 ```html
-Meu email é <a href="matheusgomes062@gmail.com">matheusgomes062@gmail.com</a>
-e você também me encontra no <a href="https://github.com/">https://github.com/</a>
+Meu email é <a href="matheusgomes062@gmail.com">matheusgomes062@gmail.com</a> e
+você também me encontra no <a href="https://github.com/">https://github.com/</a>
 ```
 
 ### Visualização
 
 Meu email é matheusgomes062@gmail.com
 e você também me encontra no [https://github.com/](https://github.com/)
-
-
 
 ### Formatação de links
 
@@ -1182,37 +1182,35 @@ e você também me encontra no [https://github.com/](https://github.com/)
 
 ```markdown
 Eu amo e a apoio **[Humble Bundle](https://www.humblebundle.com/)**
-Essa é a parte do *[Humble Bundle](https://www.humblebundle.com/)*.
+Essa é a parte do _[Humble Bundle](https://www.humblebundle.com/)_.
 Veja a seção no [`código`](#code).
 ```
 
 ### HTML
 
 ```html
-Eu amo e a apoio <strong><a href="https://www.humblebundle.com/">Humble Bundle</a></strong>
-Essa é a parte do <em><a href="https://www.humblebundle.com/">Humble Bundle</a></em>.
-Veja a seção no <a href="#code"><code>code</code></a>.
+Eu amo e a apoio
+<strong><a href="https://www.humblebundle.com/">Humble Bundle</a></strong> Essa
+é a parte do <em><a href="https://www.humblebundle.com/">Humble Bundle</a></em
+>. Veja a seção no <a href="#code"><code>code</code></a
+>.
 ```
 
 ### Visualização
 
 Eu amo e a apoio **[Humble Bundle](https://www.humblebundle.com/)**
-Essa é a parte do *[Humble Bundle](https://www.humblebundle.com/)*.
+Essa é a parte do _[Humble Bundle](https://www.humblebundle.com/)_.
 Veja a seção no [`código`](https://www.youtube.com/watch?v=dQw4w9WgXcQ)
-
-
 
 ## Links de referência de estilo
 
-Links de referência de estilo (em inglês: *Reference-style links*) são um tipo especial de link que torna mostrar URLs mais fácil de ler em arquivos Markdown. Esses tipos de links utilizam dois conjuntos de colchetes.
-
-
+Links de referência de estilo (em inglês: _Reference-style links_) são um tipo especial de link que torna mostrar URLs mais fácil de ler em arquivos Markdown. Esses tipos de links utilizam dois conjuntos de colchetes.
 
 ### Formatando a primeira parte do link
 
 A primeira parte de um link de referência de estilo é formatado com dois conjuntos de colchetes. O primeiro conjunto engloba o texto que aparece como "linkado". O segundo engloba o rótulo que será usado para apontar o link que você está guardando em alguma parte do documento.
 
-Apesar de não ser necessário, você pode incluir um espaço entre o primeiro e o segundo conjunto de colchetes. E o título do segundo conjunto de colchetes não é *case sensitive* e pode incluir letras, números, espaços e pontuações.
+Apesar de não ser necessário, você pode incluir um espaço entre o primeiro e o segundo conjunto de colchetes. E o título do segundo conjunto de colchetes não é _case sensitive_ e pode incluir letras, números, espaços e pontuações.
 
 Isso significa que os seguintes formatos são relativamente equivalentes a primeira parte do link:
 
@@ -1221,29 +1219,25 @@ Isso significa que os seguintes formatos são relativamente equivalentes a prime
 - `[bola-de-sinuca][a]`
 - `[bola-de-sinuca] [A]`
 
-
-
 ### Formatando a Segunda Parte do Link
 
 A segunda parte da referência é formatada utilizando os seguintes atributos:
 
 1. O rótulo, em colchetes, seguido imediatamente por dois pontos e por pelo menos um espaço.
-    1. Exemplo: `[rótulo]:` 
-    2. A URL do link, no qual você pode encapsular por colchetes angulares (`< >`).
-    3. Um título opcional para o link, no qual você pode encapsular em aspas duplas (`"`), aspas simples (`'`) ou parênteses (`( )`).
+   1. Exemplo: `[rótulo]:`
+   2. A URL do link, no qual você pode encapsular por colchetes angulares (`< >`).
+   3. Um título opcional para o link, no qual você pode encapsular em aspas duplas (`"`), aspas simples (`'`) ou parênteses (`( )`).
 
 Isso significa que os exemplos abaixo são relativamente equivalentes para segunda parte do link:
 
 - [hobbit-hole]: https://en.wikipedia.org/wiki/Hobbit#Lifestyle(https://en.wikipedia.org/wiki/Hobbit#Lifestyle
-- [hobbit-hole]: https://en.wikipedia.org/wiki/Hobbit#Lifestyle(https://en.wikipedia.org/wiki/Hobbit#Lifestyle) "Hobbitlifestyles"
-- [hobbit-hole]: https://en.wikipedia.org/wiki/Hobbit#Lifestyle(https://en.wikipedia.org/wiki/Hobbit#Lifestyle) "Hobbitlifestyles"
-- [hobbit-hole]: https://en.wikipedia.org/wiki/Hobbit#Lifestyle(https://en.wikipedia.org/wiki/Hobbit#Lifestyle) "Hobbitlifestyles"
-- [hobbit-hole]: https://en.wikipedia.org/wiki/Hobbit#Lifestyle(https://en.wikipedia.org/wiki/Hobbit#Lifestyle) "Hobbitlifestyles"
-- [hobbit-hole]: https://en.wikipedia.org/wiki/Hobbit#Lifestyle(https://en.wikipedia.org/wiki/Hobbit#Lifestyle) "Hobbitlifestyles"
+- [hobbit-hole]: https://en.wikipedia.org/wiki/Hobbit#Lifestyle(https://en.wikipedia.org/wiki/Hobbit#Lifestyle) 'Hobbitlifestyles'
+- [hobbit-hole]: https://en.wikipedia.org/wiki/Hobbit#Lifestyle(https://en.wikipedia.org/wiki/Hobbit#Lifestyle) 'Hobbitlifestyles'
+- [hobbit-hole]: https://en.wikipedia.org/wiki/Hobbit#Lifestyle(https://en.wikipedia.org/wiki/Hobbit#Lifestyle) 'Hobbitlifestyles'
+- [hobbit-hole]: https://en.wikipedia.org/wiki/Hobbit#Lifestyle(https://en.wikipedia.org/wiki/Hobbit#Lifestyle) 'Hobbitlifestyles'
+- [hobbit-hole]: https://en.wikipedia.org/wiki/Hobbit#Lifestyle(https://en.wikipedia.org/wiki/Hobbit#Lifestyle) 'Hobbitlifestyles'
 
 Você pode colocar a segunda parte do link em qualquer lugar do seu documento Markdown. Algumas pessoas colocam eles imediatamente depois do parágrafo no qual eles aparecem, enquanto outras pessoas colocam eles no final do documento em formato de notas finais ou notas de rodapé.
-
-
 
 ### Juntando o que aprendemos com links
 
@@ -1252,29 +1246,29 @@ Vamos dizer que você quer adicionar uma URL como um link padrão de URL em um p
 ### Markdown
 
 ```markdown
-A brasilino é uma **biblioteca aberta** e conta com a 
-**participação de toda a comunidade**, através das necessidades encontradas pelos 
-usuários, poderemos cada vez mais **criar comandos mais intuitivos e 
-simplificados** de utilizar, promovendo-se assim que a biblioteca facilite cada 
+A brasilino é uma **biblioteca aberta** e conta com a
+**participação de toda a comunidade**, através das necessidades encontradas pelos
+usuários, poderemos cada vez mais **criar comandos mais intuitivos e
+simplificados** de utilizar, promovendo-se assim que a biblioteca facilite cada
 vez mais a inserção de novos brasileiros.
 
-Se este é o seu primeiro contato com Open Source, aprenda 
+Se este é o seu primeiro contato com Open Source, aprenda
 a [como contribuir com projetos Open Source.](https://github.com/Roshanjossey/first-contributions/blob/master/translations/README.pt_br.md)
 ```
 
 ### Markdown
 
 ```markdown
-A brasilino é uma **biblioteca aberta** e conta com a 
-**participação de toda a comunidade**, através das necessidades encontradas pelos 
-usuários, poderemos cada vez mais **criar comandos mais intuitivos e 
-simplificados** de utilizar, promovendo-se assim que a biblioteca facilite cada 
+A brasilino é uma **biblioteca aberta** e conta com a
+**participação de toda a comunidade**, através das necessidades encontradas pelos
+usuários, poderemos cada vez mais **criar comandos mais intuitivos e
+simplificados** de utilizar, promovendo-se assim que a biblioteca facilite cada
 vez mais a inserção de novos brasileiros.
 
-Se este é o seu primeiro contato com Open Source, aprenda 
+Se este é o seu primeiro contato com Open Source, aprenda
 a [como contribuir com projetos Open Source.][1].
 
-[1]: <https://github.com/Roshanjossey/first-contributions/blob/master/translations/README.pt_br.md> "Como contribuir"
+[1]: https://github.com/Roshanjossey/first-contributions/blob/master/translations/README.pt_br.md 'Como contribuir'
 ```
 
 ### HTML
@@ -1282,7 +1276,11 @@ a [como contribuir com projetos Open Source.][1].
 Em ambos os casos, o HTML será convertido para o seguinte formato
 
 ```html
-<a href="https://github.com/Roshanjossey/first-contributions/blob/master/translations/README.pt_br.md"title="Como contribuir">como contribuir com projetos Open Source.</a>
+<a
+  href="https://github.com/Roshanjossey/first-contributions/blob/master/translations/README.pt_br.md"
+  title="Como contribuir"
+  >como contribuir com projetos Open Source.</a
+>
 ```
 
 ### Visualização
@@ -1292,8 +1290,6 @@ Em ambos os casos, a visualização será:
 A brasilino é uma **biblioteca aberta** e conta com a **participação de toda a comunidade**, através das necessidades encontradas pelos usuários, poderemos cada vez mais **criar comandos mais intuitivos e simplificados** de utilizar, promovendo-se assim que a biblioteca facilite cada vez mais a inserção de novos brasileiros.
 
 Se este é o seu primeiro contato com Open Source, aprenda a [como contribuir com projetos Open Source.](https://github.com/Roshanjossey/first-contributions/blob/master/translations/README.pt_br.md)
-
-
 
 ### Melhores práticas com links
 
@@ -1315,8 +1311,6 @@ Evite isso! ❌
 [link](https://www.example.com/my great page)
 ```
 
-
-
 ## Imagens
 
 Ponto importante em qualquer documentação, tutorial ou até mesmo página da web, imagens são fáceis de adicionar em arquivos markdown. Para adicionar uma imagem, adicione um ponto de exclamação (`!`), Seguido do texto alternativo entre colchetes e a imagem do URL entre parênteses.
@@ -1324,20 +1318,22 @@ Ponto importante em qualquer documentação, tutorial ou até mesmo página da w
 ### Markdown
 
 ```markdown
-![Scott Pilgrim vs O Mundo!](images/Image4.png "Scott Pilgrim")
+![Scott Pilgrim vs O Mundo!](images/Image4.png 'Scott Pilgrim')
 ```
 
 ### HTML
 
 ```html
-<img src="images/Image4.png" alt="Scott Pilgrim vs O Mundo!" title="Scott Pilgrim"/>
+<img
+  src="images/Image4.png"
+  alt="Scott Pilgrim vs O Mundo!"
+  title="Scott Pilgrim"
+/>
 ```
 
 ### Visualização
 
 ![Untitled](images/Image4.png)
-
-
 
 ### Imagens com links
 
@@ -1352,12 +1348,14 @@ Para adicionar um link a uma imagem, coloque o Markdown da imagem entre colchete
 ### HTML
 
 ```html
-<a href="Daft Punk e seu legado"><img src="images/Image5.jpg" alt="https://pt.wikipedia.org/wiki/Daft_Punk#/media/Ficheiro:Daftpunklapremiere2010.jpg"></a>
+<a href="Daft Punk e seu legado"
+  ><img
+    src="images/Image5.jpg"
+    alt="https://pt.wikipedia.org/wiki/Daft_Punk#/media/Ficheiro:Daftpunklapremiere2010.jpg"
+/></a>
 ```
 
 ![Untitled](images/Image5.png)
-
-
 
 ## Escapando caracteres
 
@@ -1379,8 +1377,6 @@ Para exibir um caractere literal que de outra forma seria usado para formatar te
 
 \* Sem a barra invertida, isso seria uma lista não ordenada.
 
-
-
 ### Caracteres que é possível escapar
 
 Você pode usar uma barra invertida para escapar os caracteres a seguir.
@@ -1389,8 +1385,8 @@ Você pode usar uma barra invertida para escapar os caracteres a seguir.
 | --------- | --------------------------- |
 | \         | Barra invertida             |
 | `         | Crase                       |
-| *         | Asterísco                   |
-| _         | Sobrelinha/Underscore       |
+| \*        | Asterísco                   |
+| \_        | Sobrelinha/Underscore       |
 | { }       | Chaves                      |
 | [ ]       | Colchetes                   |
 | ( )       | Parênteses                  |
@@ -1401,8 +1397,6 @@ Você pode usar uma barra invertida para escapar os caracteres a seguir.
 | !         | Exclamação                  |
 | \|        | Barra                       |
 
-
-
 ## HTML
 
 Muitos aplicativos Markdown permitem que você use tags HTML no texto Markdown formatado. Isso é útil se você preferir certas tags HTML à sintaxe do Markdown. Por exemplo, algumas pessoas acham mais fácil usar tags HTML para imagens. Usar HTML também é útil quando você precisa alterar os atributos de um elemento, como especificar a cor do texto ou alterar a largura de uma imagem. Para usar HTML, coloque as marcas no texto do arquivo formatado em Markdown.
@@ -1410,20 +1404,19 @@ Muitos aplicativos Markdown permitem que você use tags HTML no texto Markdown f
 ### Markdown
 
 ```markdown
-Eu **amo** ela e <em>irei</em> pedir ela em casamento em no **máximo** 5 anos. 
+Eu **amo** ela e <em>irei</em> pedir ela em casamento em no **máximo** 5 anos.
 ```
 
 ### HTML
 
 ```html
-Eu <strong>amo</strong> ela e <em>irei</em> pedir ela em casamento em no <strong>máximo</strong> 5 anos. 
+Eu <strong>amo</strong> ela e <em>irei</em> pedir ela em casamento em no
+<strong>máximo</strong> 5 anos.
 ```
 
 ### Visualização
 
-Eu **amo** ela e *irei* pedir ela em casamento em no **máximo** 5 anos. 
-
-
+Eu **amo** ela e _irei_ pedir ela em casamento em no **máximo** 5 anos.
 
 ### HTML e suas melhores práticas
 
@@ -1432,21 +1425,19 @@ Por razões de segurança, nem todos os aplicativos Markdown suportam HTML. Cada
 - Uma boa prática é utilizar linhas em branco para separar elementos HTML de nível de bloco como `<div>`, `<table>`, `<pre>` e `<p>` do resto do conteúdo. Tente não recuar as tags com tabulações ou espaços, pois isso pode interferir na formatação.
 - Não é possível utilizar a sintaxe Markdown nas tags HTML. Por exemplo, `<p> itálico e ** negrito ** </p>` não funcionam.
 
-
-
 ## Sintaxe estendida
 
-A sintaxe básica delineada no documento de design original de John Gruber adicionou muitos dos elementos necessários no dia-a-dia, mas não foi o suficiente para algumas pessoas. É aí que entra a sintaxe estendida. 
+A sintaxe básica delineada no documento de design original de John Gruber adicionou muitos dos elementos necessários no dia-a-dia, mas não foi o suficiente para algumas pessoas. É aí que entra a sintaxe estendida.
 
-Vários indivíduos e organizações assumiram a responsabilidade de estender o sintaxe básica adicionando elementos adicionais como tabelas, blocos de código, realce de sintaxe, link automático de URL e notas de rodapé. Esses elementos podem ser ativados usando uma linguagem de marcação leve que se baseia na sintaxe Markdown básica ou adicionando uma extensão a um processador Markdown compatível. 
+Vários indivíduos e organizações assumiram a responsabilidade de estender o sintaxe básica adicionando elementos adicionais como tabelas, blocos de código, realce de sintaxe, link automático de URL e notas de rodapé. Esses elementos podem ser ativados usando uma linguagem de marcação leve que se baseia na sintaxe Markdown básica ou adicionando uma extensão a um processador Markdown compatível.
 
 ### Disponibilidade
 
-Nem todos os aplicativos Markdown oferecem suporte a elementos de sintaxe estendidos. Você precisará verificar se a linguagem de marcação leve que seu aplicativo está usando suporta ou não os elementos de sintaxe estendidos que você deseja usar. Do contrário, ainda pode ser possível habilitar extensões em seu processador Markdown. 
+Nem todos os aplicativos Markdown oferecem suporte a elementos de sintaxe estendidos. Você precisará verificar se a linguagem de marcação leve que seu aplicativo está usando suporta ou não os elementos de sintaxe estendidos que você deseja usar. Do contrário, ainda pode ser possível habilitar extensões em seu processador Markdown.
 
 ### Linguagens de marcação leves
 
-Existem várias linguagens de marcação leves que são superconjuntos de Markdown. Elas incluem a sintaxe básica de Gruber e a baseiam na adição de elementos adicionais como tabelas, blocos de código, realce de sintaxe , Link automático de URL e notas de rodapé. Muitos dos aplicativos Markdown mais populares usam uma das seguintes linguagens de marcação leve: 
+Existem várias linguagens de marcação leves que são superconjuntos de Markdown. Elas incluem a sintaxe básica de Gruber e a baseiam na adição de elementos adicionais como tabelas, blocos de código, realce de sintaxe , Link automático de URL e notas de rodapé. Muitos dos aplicativos Markdown mais populares usam uma das seguintes linguagens de marcação leve:
 
 - [CommonMark](https://commonmark.org/)
 - [GitHub Flavored Markdown (GFM)](https://github.github.com/gfm/)
@@ -1458,8 +1449,6 @@ Existem várias linguagens de marcação leves que são superconjuntos de Markdo
 
 Existem dezenas de processadores Markdown disponíveis. Muitos deles permitem que você adicione extensões que permitem elementos de sintaxe estendidos. Verifique a documentação do seu processador para obter mais informações.
 
-
-
 ## Tabelas
 
 Para adicionar uma tabela, use três ou mais hifens (`---`) para criar o cabeçalho de cada coluna e use barras verticais (`|`) para separar cada coluna. Você pode opcionalmente adicionar barras verticais em qualquer uma das extremidades da tabela.
@@ -1467,32 +1456,32 @@ Para adicionar uma tabela, use três ou mais hifens (`---`) para criar o cabeça
 ### Markdown
 
 ```markdown
-| Sintaxe     | Descrição   |
-| ----------- | ----------- |
-| Header      | Título      |
-| Parágrafo   | Texto       |
+| Sintaxe   | Descrição |
+| --------- | --------- |
+| Header    | Título    |
+| Parágrafo | Texto     |
 ```
 
 ### HTML
 
 ```html
 <table>
-	<thead>
-		<tr class="header">
-			<th>Sintaxe</th>
-			<th>Descrição</th>
-		</tr>
-	</thead>
-	<tbody>
-		<tr class="odd">
-			<td>Header</td>
-			<td>Título</td>
-		</tr>
-		<tr class="even">
-			<td>Parágrafo</td>
-			<td>Texto</td>
-		</tr>
-	</tbody>
+  <thead>
+    <tr class="header">
+      <th>Sintaxe</th>
+      <th>Descrição</th>
+    </tr>
+  </thead>
+  <tbody>
+    <tr class="odd">
+      <td>Header</td>
+      <td>Título</td>
+    </tr>
+    <tr class="even">
+      <td>Parágrafo</td>
+      <td>Texto</td>
+    </tr>
+  </tbody>
 </table>
 ```
 
@@ -1510,35 +1499,35 @@ Você pode alinhar o texto nas colunas à esquerda, à direita ou ao centro adic
 ### Markdown
 
 ```markdown
-| Sintaxe     | Descrição   | Texto      |
-| :---        |    :----:   |       ---: |
-| Header      | Título      | Um pouco   |
-| Parágrafo   | Texto       | De texto   |
+| Sintaxe   | Descrição |    Texto |
+| :-------- | :-------: | -------: |
+| Header    |  Título   | Um pouco |
+| Parágrafo |   Texto   | De texto |
 ```
 
 ### HTML
 
 ```html
 <table>
-	<thead>
-		<tr class="header">
-			<th style="text-align: left;">Sintaxe</th>
-			<th style="text-align: center;">Descrição</th>
-			<th style="text-align: right;">Texto</th>
-		</tr>
-	</thead>
-	<tbody>
-		<tr class="odd">
-			<td style="text-align: left;">Header</td>
-			<td style="text-align: center;">Título</td>
-			<th style="text-align: right;">Um pouco</th>
-		</tr>
-		<tr class="even">
-			<td style="text-align: left;">Parágrafo</td>
-			<td style="text-align: center;">Texto</td>
-			<th style="text-align: right;">De texto</th>
-		</tr>
-	</tbody>
+  <thead>
+    <tr class="header">
+      <th style="text-align: left;">Sintaxe</th>
+      <th style="text-align: center;">Descrição</th>
+      <th style="text-align: right;">Texto</th>
+    </tr>
+  </thead>
+  <tbody>
+    <tr class="odd">
+      <td style="text-align: left;">Header</td>
+      <td style="text-align: center;">Título</td>
+      <th style="text-align: right;">Um pouco</th>
+    </tr>
+    <tr class="even">
+      <td style="text-align: left;">Parágrafo</td>
+      <td style="text-align: center;">Texto</td>
+      <th style="text-align: right;">De texto</th>
+    </tr>
+  </tbody>
 </table>
 ```
 
@@ -1561,27 +1550,27 @@ Você consegue escapar as barras verticais (`|`) nas tabelas usando o Unicode de
 
 Ou seja, ao invés de utilizar barras verticais, basta utilizar o Unicode no lugar.
 
-
-
 ## Blocos de código cercados (protegidos)
 
 A sintaxe básica do Markdown permite que você crie blocos de código recuando linhas por quatro espaços ou um tab. Se você achar isso inconveniente, você pode utilizar blocos de código cercados (ou protegidos). Dependendo do seu processador ou editor Markdown, você usará três crases (```` `) ou três tils (`~~~`) nas linhas antes e depois do bloco de código.
 
 Um ponto importante desse tópico é que recomendamos a utilização de crases ao invés de tils por padronização, visto ser bem mais comum encontrarmos esse tipo de escrita nas documentações.
 
-A melhor parte? 
+A melhor parte?
 
 Você não precisa recuar nenhuma linha!
 
 ### Markdown
 
-```markdown
-```{
+````markdown
+````{
 	"primeiroNome": "Matheus",
 	"segundoNome": "Gomes",
 	"idade": 23
 }```
-```
+````
+````
+
 ### HTML
 
 ```html
@@ -1600,9 +1589,9 @@ Você não precisa recuar nenhuma linha!
 
 ```json
 {
-	"primeiroNome": "Matheus",
-	"segundoNome": "Gomes",
-	"idade": 23
+  "primeiroNome": "Matheus",
+  "segundoNome": "Gomes",
+  "idade": 23
 }
 ```
 
@@ -1612,18 +1601,19 @@ Muitos processadores Markdown suportam realce de sintaxe para blocos de código 
 
 ### Markdown
 
-```markdown
+````markdown
 ```json
 {
-	"primeiroNome": "Matheus",
-	"segundoNome": "Gomes",
-	"idade": 23
+  "primeiroNome": "Matheus",
+  "segundoNome": "Gomes",
+  "idade": 23
 }
 ```
+````
+
 ### HTML
 
 ```html
-
 <pre>
 	<code class="language-json">
 	{
@@ -1639,71 +1629,83 @@ Muitos processadores Markdown suportam realce de sintaxe para blocos de código 
 
 ```json
 {
-	"primeiroNome": "Matheus",
-	"segundoNome": "Gomes",
-	"idade": 23
+  "primeiroNome": "Matheus",
+  "segundoNome": "Gomes",
+  "idade": 23
 }
 ```
 
-
-
 ## Notas de rodapé
 
-Muito comum em livros, as notas de rodapé permitem adicionar notas e referências sem bagunçar o corpo do documento. Quando você cria uma nota de rodapé, um número sobrescrito com um link aparece onde você adicionou a referência da nota de rodapé. Os leitores podem clicar no link para acessar o conteúdo da nota de rodapé na parte inferior da página. 
+Muito comum em livros, as notas de rodapé permitem adicionar notas e referências sem bagunçar o corpo do documento. Quando você cria uma nota de rodapé, um número sobrescrito com um link aparece onde você adicionou a referência da nota de rodapé. Os leitores podem clicar no link para acessar o conteúdo da nota de rodapé na parte inferior da página.
 
-Para criar uma referência de nota de rodapé, adicione um acento circunflexo e um identificador entre colchetes (`[^ 1]` no caso o número 1 é o identificador). Os identificadores podem ser números ou palavras, mas **não podem conter espaços ou tabulações.** Os identificadores apenas correlacionam a referência da nota de rodapé com a própria nota de rodapé - na saída, as notas de rodapé são numeradas sequencialmente. 
+Para criar uma referência de nota de rodapé, adicione um acento circunflexo e um identificador entre colchetes (`[^ 1]` no caso o número 1 é o identificador). Os identificadores podem ser números ou palavras, mas **não podem conter espaços ou tabulações.** Os identificadores apenas correlacionam a referência da nota de rodapé com a própria nota de rodapé - na saída, as notas de rodapé são numeradas sequencialmente.
 
 Adicione a nota de rodapé usando outro acento circunflexo e número entre colchetes com dois pontos e texto (`[^ 1]: Minha nota de rodapé.`). Você não precisa colocar notas de rodapé no final do documento. Você pode colocá-los em qualquer lugar, exceto dentro de outros elementos como listas, blocos de citação e tabelas.
 
 ### Markdown
 
 ```markdown
-Aqui está uma nota de rodapé simples,[^1] e aqui uma maior.[^notaDeRodapeGigante]
+Aqui está uma nota de rodapé simples,[^1] e aqui uma maior.[^notaderodapegigante]
 
 [^1]: Essa é a primeira nota de rodapé.
+[^notaderodapegigante]:
+    Aqui está uma nota de rodapé com multiplas linhas de código.
 
-[^notaDeRodapeGigante]: Aqui está uma nota de rodapé com multiplas linhas de código.
+    Indente os parágrafos para inlcluir eles na nota de rodapé.
 
-	Indente os parágrafos para inlcluir eles na nota de rodapé.
+    `{ meu código }`
 
-	`{ meu código }`
-
-	Adicione quantos parágrafos desejar.
+    Adicione quantos parágrafos desejar.
 ```
 
 ### HTML
 
 ```html
 <p>
-	Aqui está uma nota de rodapé simples, <a href="#fn1"class="footnote-ref"id="fnref1"><sup>1</sup></a> e aqui uma maior. <a href="#fn2"class="footnote-ref"id="fnref2"><sup>2</sup></a>
+  Aqui está uma nota de rodapé simples,
+  <a href="#fn1" class="footnote-ref" id="fnref1"><sup>1</sup></a> e aqui uma
+  maior. <a href="#fn2" class="footnote-ref" id="fnref2"><sup>2</sup></a>
 </p>
 <section class="footnotes">
-	<hr/>
-	<ol>
-		<li id="fn1"><p>Essa é a primeira nota de rodapé.<a href="#fnref1" class="footnote-back">&#8617;&#xFE0E;</a></p></li>
-		<li id="fn2">
-			<p>Aqui está uma nota de rodapé com multiplas linhas de código.</p>
-			<p>Indente os parágrafos para inlcluir eles na nota de rodapé.</p>
-			<p><code>{ meu código }</code></p>
-			<p>Adicione quantos parágrafos desejar.<a href="#fnref2"class="footnote-back">&#8617;&#xFE0E;</a></p>
-		</li>
-	</ol>
+  <hr />
+  <ol>
+    <li id="fn1">
+      <p>
+        Essa é a primeira nota de rodapé.<a href="#fnref1" class="footnote-back"
+          >&#8617;&#xFE0E;</a
+        >
+      </p>
+    </li>
+    <li id="fn2">
+      <p>Aqui está uma nota de rodapé com multiplas linhas de código.</p>
+      <p>Indente os parágrafos para inlcluir eles na nota de rodapé.</p>
+      <p><code>{ meu código }</code></p>
+      <p>
+        Adicione quantos parágrafos desejar.<a
+          href="#fnref2"
+          class="footnote-back"
+          >&#8617;&#xFE0E;</a
+        >
+      </p>
+    </li>
+  </ol>
 </section>
 ```
 
 ### Visualização
 
-Aqui está uma nota de rodapé simples,[^1] e aqui uma maior.[^notaDeRodapeGigante]
+Aqui está uma nota de rodapé simples,[^1] e aqui uma maior.[^notaderodapegigante]
 
 [^1]: Essa é a primeira nota de rodapé.
+[^notaderodapegigante]:
+    Aqui está uma nota de rodapé com multiplas linhas de código.
 
-[^notaDeRodapeGigante]: Aqui está uma nota de rodapé com multiplas linhas de código.
+    Indente os parágrafos para inlcluir eles na nota de rodapé.
 
-	Indente os parágrafos para inlcluir eles na nota de rodapé.
-	
-	`{ meu código }`
-	
-	Adicione quantos parágrafos desejar.
+    `{ meu código }`
+
+    Adicione quantos parágrafos desejar.
 
 ## IDs em Cabeçalhos
 
@@ -1720,8 +1722,6 @@ Muitos processadores Markdown e editores suportam IDs personalizados para cabeç
 ```html
 <h3 id="custom-id">Meu título incrível</h3>
 ```
-
-
 
 ## Vinculando a IDs de título
 
@@ -1741,11 +1741,9 @@ Você pode vincular IDs personalizados em títulos/cabeçalhos criando um link p
 
 Outros sites podem vincular ao título adicionando o ID do título personalizado à URL completa da página da web (por exemplo, `[IDs de título] (https://www.eff.org/page#heading-ids)`)
 
-
-
 ## Listas de definição
 
-Alguns processadores Markdown permitem que você crie *listas de definições,*  ou seja, uma lista de termos e suas definições correspondentes. Para criar uma lista de definições, digite o termo na primeira linha. Na próxima linha, digite dois pontos seguidos por um espaço e a definição.
+Alguns processadores Markdown permitem que você crie _listas de definições,_ ou seja, uma lista de termos e suas definições correspondentes. Para criar uma lista de definições, digite o termo na primeira linha. Na próxima linha, digite dois pontos seguidos por um espaço e a definição.
 
 ### Markdown
 
@@ -1762,15 +1760,13 @@ Segundo Termo
 
 ```html
 <dl>
-	<dt>Primeiro Termo</dt>
-	<dd>Definição do primeiro termo.</dd>
-	<dt>Segundo Termo</dt>
-	<dd>Primeira definição do segundo termo.</dd>
-	<dd>Segunda definição do segundo termo.</dd>
+  <dt>Primeiro Termo</dt>
+  <dd>Definição do primeiro termo.</dd>
+  <dt>Segundo Termo</dt>
+  <dd>Primeira definição do segundo termo.</dd>
+  <dd>Segunda definição do segundo termo.</dd>
 </dl>
 ```
-
-
 
 ## Palavra Tachada
 
@@ -1806,16 +1802,16 @@ As listas de tarefas permitem que você crie uma lista de itens com caixas de se
 
 ### Visualização
 
-- [x]  Escrever o livro
-- [ ]  Publicar no github
-- [ ]  Colocar na Amazon
+- [x] Escrever o livro
+- [ ] Publicar no github
+- [ ] Colocar na Amazon
 
 ## Emoji
 
-Existem duas maneiras de adicionar emojis a arquivos Markdown: 
+Existem duas maneiras de adicionar emojis a arquivos Markdown:
 
-1. Copie e cole o emoji no seu texto formatado em Markdown 
-2. Digite o código de atalho do emoji em específico. 
+1. Copie e cole o emoji no seu texto formatado em Markdown
+2. Digite o código de atalho do emoji em específico.
 
 Iremos mostrar como fazer ambos.
 
@@ -1837,7 +1833,7 @@ Inovando sempre!
 
 ### Visualização
 
-Bitcoin subindo para a lua  :rocket:  :moon: !
+Bitcoin subindo para a lua :rocket: :moon: !
 
 Inovando sempre!
 
@@ -1883,13 +1879,9 @@ Se você não quiser que um URL seja vinculado automaticamente, você pode remov
 
 ---
 
-
-
 # Resumo
 
 Como última parte do livro, aqui vai um compilado com as informações mais relevantes para uma consulta rápida e prática sobre markdown!
-
-
 
 ### Sintaxe Básica
 
@@ -1899,7 +1891,7 @@ Como última parte do livro, aqui vai um compilado com as informações mais rel
 |                    | ## H2                                              |
 |                    | ### H3                                             |
 | Negrito            | ** Texto em Negrito **                             |
-| Itálico            | * Texto em itálico *                               |
+| Itálico            | _ Texto em itálico _                               |
 | Citação            | > Texto a ser citado                               |
 | Lista Ordenada     | 1. Primeiro Item                                   |
 |                    | 2. Segundo Item                                    |
@@ -1907,33 +1899,29 @@ Como última parte do livro, aqui vai um compilado com as informações mais rel
 | Lista Não Ordenada | - Item                                             |
 |                    | - Item de novo                                     |
 |                    | - Outro Item                                       |
-| Código             | `` Código `  `                                     |
+| Código             | ``Código` `                                        |
 | Linha horizontal   | ---                                                |
 | Link               | `[título](https://link.com.br)`                    |
 | Imagem             | `![Texto alternativo](https://link-imagem.com.br)` |
 
-
-
 ### Sintaxe Extendida
 
-| Sintaxe                   | Markdown                                                     |
-| ------------------------- | ------------------------------------------------------------ |
-| Tabela                    | `| Sintaxe   | Texto  |`                                     |
-|                           | `|    ---    |   ---  |`                                     |
-|                           | `| Cabeçalho | Título |`                                     |
-| Bloco de código protegido | ````{"primeiroNome": "Matheus",	"segundoNome": "Gomes",	"idade": 23}``` ` |
-| Nota de rodapé            | `Essa é a primeira nota de rodapé. [^1] `                    |
-| Id de título              | ### Meu título incrível {#custom-id}                         |
-| Palavra tachada           | `A Terra é ~~plana~~ esférica.`                              |
-| Lista de tarefas          | - [x] Escrever o livro                                       |
-|                           | - [ ] Publicar no github                                     |
-|                           | - [ ] Colocar na Amazon                                      |
+| Sintaxe                   | Markdown                                                              |
+| ------------------------- | --------------------------------------------------------------------- | --------- | ------ | --- |
+| Tabela                    | `                                                                     | Sintaxe   | Texto  | `   |
+|                           | `                                                                     | ---       | ---    | `   |
+|                           | `                                                                     | Cabeçalho | Título | `   |
+| Bloco de código protegido | ``{"primeiroNome": "Matheus", "segundoNome": "Gomes", "idade": 23}` ` |
+| Nota de rodapé            | `Essa é a primeira nota de rodapé. [^1] `                             |
+| Id de título              | ### Meu título incrível {#custom-id}                                  |
+| Palavra tachada           | `A Terra é ~~plana~~ esférica.`                                       |
+| Lista de tarefas          | - [x] Escrever o livro                                                |
+|                           | - [ ] Publicar no github                                              |
+|                           | - [ ] Colocar na Amazon                                               |
 
 # Sobre o autor
 
 Matheus Gomes é desenvolvedor front-end com comprovadas habilidades técnicas, organizacionais e de comunicação, trabalhando com Vue Js e projetando soluções de software. Você pode entrar em contato com ele pelo email matheusgomes062@gmail.com.
-
-
 
 ---
 
@@ -1941,9 +1929,6 @@ Matheus Gomes é desenvolvedor front-end com comprovadas habilidades técnicas, 
 
 Obrigado por estar até aqui comigo! Deus te abençoe e até a próxima! Espero que esse livro tenha lhe ajudado!
 
-
-
 Atenciosamente,
 
 Matheus Gomes
-
