@@ -1,3 +1,5 @@
+![Guia Markdown](/Users/matheusgomes/Downloads/Guia Markdown.png)
+
 # Guia Markdown
 
 Obrigado a todos pelo incentivo!
@@ -1231,11 +1233,11 @@ A segunda parte da referência é formatada utilizando os seguintes atributos:
 Isso significa que os exemplos abaixo são relativamente equivalentes para segunda parte do link:
 
 - [hobbit-hole]: https://en.wikipedia.org/wiki/Hobbit#Lifestyle(https://en.wikipedia.org/wiki/Hobbit#Lifestyle
-- [hobbit-hole]: https://en.wikipedia.org/wiki/Hobbit#Lifestyle(https://en.wikipedia.org/wiki/Hobbit#Lifestyle) 'Hobbitlifestyles'
-- [hobbit-hole]: https://en.wikipedia.org/wiki/Hobbit#Lifestyle(https://en.wikipedia.org/wiki/Hobbit#Lifestyle) 'Hobbitlifestyles'
-- [hobbit-hole]: https://en.wikipedia.org/wiki/Hobbit#Lifestyle(https://en.wikipedia.org/wiki/Hobbit#Lifestyle) 'Hobbitlifestyles'
-- [hobbit-hole]: https://en.wikipedia.org/wiki/Hobbit#Lifestyle(https://en.wikipedia.org/wiki/Hobbit#Lifestyle) 'Hobbitlifestyles'
-- [hobbit-hole]: https://en.wikipedia.org/wiki/Hobbit#Lifestyle(https://en.wikipedia.org/wiki/Hobbit#Lifestyle) 'Hobbitlifestyles'
+- [hobbit-hole]: https://en.wikipedia.org/wiki/Hobbit#Lifestyle(https://en.wikipedia.org/wiki/Hobbit#Lifestyle) "Hobbitlifestyles"
+- [hobbit-hole]: https://en.wikipedia.org/wiki/Hobbit#Lifestyle(https://en.wikipedia.org/wiki/Hobbit#Lifestyle) "Hobbitlifestyles"
+- [hobbit-hole]: https://en.wikipedia.org/wiki/Hobbit#Lifestyle(https://en.wikipedia.org/wiki/Hobbit#Lifestyle) "Hobbitlifestyles"
+- [hobbit-hole]: https://en.wikipedia.org/wiki/Hobbit#Lifestyle(https://en.wikipedia.org/wiki/Hobbit#Lifestyle) "Hobbitlifestyles"
+- [hobbit-hole]: https://en.wikipedia.org/wiki/Hobbit#Lifestyle(https://en.wikipedia.org/wiki/Hobbit#Lifestyle) "Hobbitlifestyles"
 
 Você pode colocar a segunda parte do link em qualquer lugar do seu documento Markdown. Algumas pessoas colocam eles imediatamente depois do parágrafo no qual eles aparecem, enquanto outras pessoas colocam eles no final do documento em formato de notas finais ou notas de rodapé.
 
@@ -1700,11 +1702,11 @@ Aqui está uma nota de rodapé simples,[^1] e aqui uma maior.[^notaderodapegigan
 [^1]: Essa é a primeira nota de rodapé.
 [^notaderodapegigante]:
     Aqui está uma nota de rodapé com multiplas linhas de código.
-
+    
     Indente os parágrafos para inlcluir eles na nota de rodapé.
-
+    
     `{ meu código }`
-
+    
     Adicione quantos parágrafos desejar.
 
 ## IDs em Cabeçalhos
