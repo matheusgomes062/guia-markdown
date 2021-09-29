@@ -1,4 +1,4 @@
-![Guia Markdown](/Users/matheusgomes/Downloads/Guia Markdown.png)
+<img src="/Users/matheusgomes/Downloads/Guia Markdown.png" alt="Guia Markdown" style="zoom: 40%;" />
 
 # Guia Markdown
 
@@ -1908,18 +1908,17 @@ Como última parte do livro, aqui vai um compilado com as informações mais rel
 
 ### Sintaxe Extendida
 
-| Sintaxe                   | Markdown                                                              |
-| ------------------------- | --------------------------------------------------------------------- | --------- | ------ | --- |
-| Tabela                    | `                                                                     | Sintaxe   | Texto  | `   |
-|                           | `                                                                     | ---       | ---    | `   |
-|                           | `                                                                     | Cabeçalho | Título | `   |
+| Sintaxe                   | Markdown                                                     |
+| ------------------------- | ------------------------------------------------------------ |
+| Tabela                    | ` | Sintaxe | Texto |`                                       |
+|                           | ` | --- | --- | `                                            |
+|                           | ` | Coluna 1 | Coluna 2 | `                                  |
 | Bloco de código protegido | ``{"primeiroNome": "Matheus", "segundoNome": "Gomes", "idade": 23}` ` |
-| Nota de rodapé            | `Essa é a primeira nota de rodapé. [^1] `                             |
-| Id de título              | ### Meu título incrível {#custom-id}                                  |
-| Palavra tachada           | `A Terra é ~~plana~~ esférica.`                                       |
-| Lista de tarefas          | - [x] Escrever o livro                                                |
-|                           | - [ ] Publicar no github                                              |
-|                           | - [ ] Colocar na Amazon                                               |
+| Nota de rodapé            | `Essa é a primeira nota de rodapé. [^1] `                    |
+| Id de título              | `### Meu título incrível {#custom-id}`                       |
+| Palavra tachada           | `A Terra é ~~plana~~ esférica.`                              |
+| Lista de tarefas          | `- [x] Escrever o livro`                                     |
+|                           | `- [ ] Escrever o livro`                                     |
 
 # Sobre o autor
 
